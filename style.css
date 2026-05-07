@@ -1,0 +1,74 @@
+body {
+	background-color: white;
+	color: black;
+
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+
+	background: radial-gradient(circle at top left, #b7e4c7, #2A4C34);
+
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: -0.2px;
+}
+
+
+footer {
+	margin-top: auto;
+	text-align: center;
+	padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "JetBrains Mono", monospace;
+	margin-botom: 5px;
+}
+
+
+h1, p {
+	margin-top: -3px;
+	text-align: center;
+	max-width: 850px;
+}
+
+
+.nav {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+
+.tabs {
+	display: flex;
+	gap: 20px;
+	padding: 5px;
+}
+
+
+.tab {
+	padding: 10px 20px;
+
+	border: 2px solid #25E029;
+	border-radius: 999px;
+
+	text-decoration: none;
+	color: white;
+
+	transition: all 0.5s ease;
+}
+
+
+.tab:hover {
+	background-color: #25E029;
+	color: white;
+}
+
+.tab.active {
+	background-color: #25E029;
+	color: white;
+}
